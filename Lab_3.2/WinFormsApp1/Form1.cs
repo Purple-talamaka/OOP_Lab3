@@ -3,6 +3,7 @@ namespace WinFormsApp1
     public partial class Form1 : Form
     {
         private Model _model = new Model();
+        private int _updateCount = 0;
 
         public Form1()
         {
@@ -25,6 +26,9 @@ namespace WinFormsApp1
 
         private void UpdateView()
         {
+            _updateCount++;
+            labelCount.Text = $"Обновлений: {_updateCount}";
+
             textBoxA.Text = _model.A.ToString();
             numericUpDownA.Value = _model.A;
             trackBarA.Value = _model.A;

@@ -40,6 +40,7 @@
             labelA = new Label();
             labelB = new Label();
             labelC = new Label();
+            labelCount = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDownA).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBarA).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBarB).BeginInit();
@@ -150,11 +151,21 @@
             labelC.TabIndex = 11;
             labelC.Text = "C";
             // 
+            // labelCount
+            // 
+            labelCount.AutoSize = true;
+            labelCount.Location = new Point(750, 426);
+            labelCount.Name = "labelCount";
+            labelCount.Size = new Size(38, 15);
+            labelCount.TabIndex = 12;
+            labelCount.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(labelCount);
             Controls.Add(labelC);
             Controls.Add(labelB);
             Controls.Add(labelA);
@@ -194,5 +205,6 @@
         private Label labelA;
         private Label labelB;
         private Label labelC;
+        private Label labelCount;
     }
 }
