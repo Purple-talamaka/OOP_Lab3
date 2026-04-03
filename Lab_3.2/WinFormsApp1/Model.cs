@@ -22,6 +22,8 @@ public class Model
         get { return _c; }
     }
 
+    // Устанавливает A в диапазоне 0-100. Если B < A, подтягивает B до A.
+    // Если после этого C < B, подтягивает C до B.
     public void SetA(int value)
     {
         value = Math.Clamp(value, 0, 100);
@@ -39,6 +41,8 @@ public class Model
         Save();
     }
 
+    // Устанавливает B в диапазоне от A до C. Если значение выходит за
+    // пределы — зажимается до ближайшей границы.
     public void SetB(int value)
     {
         value = Math.Clamp(value, _a, _c);
@@ -46,6 +50,8 @@ public class Model
         Save();
     }
 
+    // Устанавливает C в диапазоне 0-100. Если B > C, подтягивает B до C.
+    // Если после этого A > B, подтягивает A до B.
     public void SetC(int value)
     {
         value = Math.Clamp(value, 0, 100);
@@ -63,11 +69,13 @@ public class Model
         Save();
     }
 
+    // Метод для сохранения данных в файл
     private void Save()
     {
         File.WriteAllText("data.txt", $"{_a},{_b},{_c}");
     }
 
+    // Метод для загрузки данных из файла
     public void Load()
     {
         if (!File.Exists("data.txt")) return;
