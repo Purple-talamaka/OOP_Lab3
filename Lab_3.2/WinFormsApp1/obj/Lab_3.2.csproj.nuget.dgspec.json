@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.2_Laba\\WinFormsApp1\\WinFormsApp1\\Lab_3.2.csproj": {}
+    "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.1_Laba\\WinFormsApp1\\Lab_3.2\\WinFormsApp1\\Lab_3.2.csproj": {}
   },
   "projects": {
-    "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.2_Laba\\WinFormsApp1\\WinFormsApp1\\Lab_3.2.csproj": {
+    "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.1_Laba\\WinFormsApp1\\Lab_3.2\\WinFormsApp1\\Lab_3.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.2_Laba\\WinFormsApp1\\WinFormsApp1\\Lab_3.2.csproj",
+        "projectUniqueName": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.1_Laba\\WinFormsApp1\\Lab_3.2\\WinFormsApp1\\Lab_3.2.csproj",
         "projectName": "Lab_3.2",
-        "projectPath": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.2_Laba\\WinFormsApp1\\WinFormsApp1\\Lab_3.2.csproj",
+        "projectPath": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.1_Laba\\WinFormsApp1\\Lab_3.2\\WinFormsApp1\\Lab_3.2.csproj",
         "packagesPath": "C:\\Users\\talam\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.2_Laba\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\Универ\\ПРО\\6 семестр\\ООП\\1-5 lab\\3.1_Laba\\WinFormsApp1\\Lab_3.2\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
